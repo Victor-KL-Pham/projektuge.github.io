@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en"
+  ><head
+    ><title>Introduktion - Active Online Software Page</title
+    ><meta
+      property="og:title"
+      content="Introduktion - Active Online Software Page"
+    /><meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    /><meta charset="utf-8" /><meta
+      property="twitter:card"
+      content="summary_large_image"
+    /><style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }</style
+    ><style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }</style
+    ><link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    /><link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    /><link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    /><style>
+       body::-webkit-scrollbar {
+         width: 0.5em;
+         z-index: 100;
+         background-color:transparent;
+       }
+
+
+      body::-webkit-scrollbar-thumb {
+         background-color:white;
+         box-shadow:0 -100vh 0 100vh #5128f5;//magic
+       }
+    </style></head
+  ><body
+    ><link rel="stylesheet" href="./style.css" /><div
+      ><link href="./introduktion.css" rel="stylesheet" /><div
+        class="introduktion-container"
+        ><section class="introduktion-hero"
+          ><div class="introduktion-menu"
+            ><div id="mobile-menu" class="introduktion-mobile-navigation"
+              ><img
+                alt="pastedImage"
+                src="public/pastedimage-no9b-1500h.png"
+                class="introduktion-logo" /><div class="introduktion-links"
+                ><span class="Link">Solutions</span
+                ><span class="Link">How it works</span
+                ><span class="Link">Prices</span></div
+              ><div
+                id="close-mobile-menu"
+                class="introduktion-close-mobile-menu"
+                ><svg
+                  viewBox="0 0 804.5714285714286 1024"
+                  class="introduktion-icon"
+                >
+                  <path
+                    d="M741.714 755.429c0 14.286-5.714 28.571-16 38.857l-77.714 77.714c-10.286 10.286-24.571 16-38.857 16s-28.571-5.714-38.857-16l-168-168-168 168c-10.286 10.286-24.571 16-38.857 16s-28.571-5.714-38.857-16l-77.714-77.714c-10.286-10.286-16-24.571-16-38.857s5.714-28.571 16-38.857l168-168-168-168c-10.286-10.286-16-24.571-16-38.857s5.714-28.571 16-38.857l77.714-77.714c10.286-10.286 24.571-16 38.857-16s28.571 5.714 38.857 16l168 168 168-168c10.286-10.286 24.571-16 38.857-16s28.571 5.714 38.857 16l77.714 77.714c10.286 10.286 16 24.571 16 38.857s-5.714 28.571-16 38.857l-168 168 168 168c10.286 10.286 16 24.571 16 38.857z"
+                  ></path></svg></div></div
+            ><div class="introduktion-desktop-navigation"
+              ><nav class="introduktion-centered"
+                ><div class="introduktion-left"
+                  ><div class="introduktion-container1"
+                    ><a href="index.html" class="introduktion-navlink"
+                      ><span>Projektuge</span><br /></a></div
+                  ><div class="introduktion-links1"
+                    ><span class="introduktion-text05 Link">Introduktion</span
+                    ><a
+                      href="ai-forklaret.html"
+                      class="introduktion-navlink1 Link"
+                      ><span>Ai forklaret</span><br /></a></div></div
+                ><div class="introduktion-right"
+                  ><div id="open-mobile-menu" class="introduktion-burger-menu"
+                    ><img
+                      alt="pastedImage"
+                      src="public/pastedimage-yxbd.svg"
+                      class="introduktion-mobile-menu-button" /></div></div></nav></div
+            ><div
+              ><div class="introduktion-container3"
+                ><script defer="">
+                  /*
+                  Mobile menu - Code Embed
+                  */
+
+                  // Mobile menu
+                  const mobileMenu = document.querySelector('#mobile-menu')
+
+                  // Buttons
+                  const closeButton = document.querySelector('#close-mobile-menu')
+                  const openButton = document.querySelector('#open-mobile-menu')
+
+                  // On openButton click, set the mobileMenu position left to -100vw
+                  openButton.addEventListener('click', function() {
+                      mobileMenu.style.transform = 'translateX(0%)'
+                  })
+
+                  // On closeButton click, set the mobileMenu position to 0vw
+                  closeButton.addEventListener('click', function() {
+                      mobileMenu.style.transform = 'translateX(100%)'
+                  })
+                </script></div
+              ></div
+            ></div
+          ><header class="introduktion-header"
+            ><h1 class="introduktion-text08">Programmering</h1
+            ><p class="introduktion-text09"
+              ><span>Processen med at udarbejde et instruerende </span
+              ><br /><span>program til en enhed</span><br /></p></header
+          ><div class="introduktion-dashboard-preview"
+            ><div class="introduktion-outline"
+              ><img
+                alt="pastedImage"
+                src="public/Images/explaining%20things%20to%20computers-1000h.jpg"
+                loading="lazy"
+                class="introduktion-image" /></div></div></section
+        ><section class="introduktion-features"
+          ><div class="introduktion-title"></div
+          ><div class="introduktion-container4"
+            ><div class="introduktion-left1"
+              ><span class="introduktion-text14 title"
+                ><span>Computerens sprog</span><br /></span
+              ><span class="introduktion-text17"
+                >Computere forstår kun 0'ere og 1'ere - Altså binær</span
+              ></div
+            ><div class="introduktion-image-container"
+              ><img
+                alt="pastedImage"
+                src="public/Images/binaries-2000h.jpg"
+                class="introduktion-cards-image" /></div></div
+          ><div class="introduktion-analyze card"
+            ><span class="introduktion-text18">Compiler</span
+            ><img
+              alt="image"
+              src="public/Images/compiler-2000h.png"
+              class="introduktion-image1" /></div></section
+        ><section class="introduktion-features1"
+          ><div class="introduktion-title1"
+            ><span class="introduktion-text19">Programmeringssprog</span
+            ><span class="introduktion-text20"
+              >Hvert sprog har også en egenskab kendt som kraft eller
+              niveau</span
+            ></div
+          ><div class="introduktion-cards"
+            ><div class="introduktion-container5"
+              ><div class="card"
+                ><img
+                  alt="pastedImage"
+                  src="public/pastedimage-mimg-200h.png"
+                  class="introduktion-icon2" /><span class="introduktion-text21"
+                  ><span>Static</span><br /></span
+                ><span class="introduktion-text24"
+                  ><span
+                    >Datatyper defineres under kompileringstiden og kan ikke
+                    ændres under kørsel</span
+                  ><br /></span></div
+              ><div class="introduktion-publish card"
+                ><img
+                  alt="pastedImage"
+                  src="public/pastedimage-fii6m-200h.png"
+                  class="introduktion-icon3"
+                /><span class="introduktion-text27">Dynamic</span
+                ><span class="introduktion-text28"
+                  >Udfører typekontrol under kørsel, og tillader datatyper at
+                  ændre gennem udførelsen</span
+                ></div
+              ></div
+            ><div class="introduktion-container6"
+              ><div class="card introduktion-analyze1"
+                ><img
+                  alt="pastedImage"
+                  src="public/pastedimage-l6p-200h.png"
+                  class="introduktion-icon4" /><span class="introduktion-text29"
+                  >Low-level</span
+                ><span class="introduktion-text30"
+                  ><span
+                    >tættere på maskine-kode, hvilket giver mere kontrol og
+                    effektivitet, men er sværere at programmere.</span
+                  ><br /></span></div
+              ><div class="card"
+                ><img
+                  alt="pastedImage"
+                  src="public/pastedimage-vyi5-200h.png"
+                  class="introduktion-icon5"
+                /><span class="introduktion-text33">High-level</span
+                ><span class="introduktion-text34"
+                  >Mere læsbare og abstraheret fra hardware, hvilket gør dem
+                  nemmere at programmere, men mindre effektive</span
+                ></div
+              ></div
+            ><img
+              alt="pastedImage"
+              src="public/Images/types%20of%20programming%20languages-1800h.png"
+              class="introduktion-cards-image1" /></div
+          ><div class="introduktion-get-leads1 card"
+            ><img
+              alt="pastedImage"
+              src="public/pastedimage-vyi5-200h.png"
+              class="introduktion-icon6"
+            /><span class="introduktion-text35">Syntaks</span
+            ><span class="introduktion-text36"
+              >Regler der kontrollerer, og definerer strukturen på sproget -
+              Ligesom grammatiske regler i dagligdags sprog</span
+            ></div
+          ></section
+        ><section class="introduktion-quote-container"
+          ><img
+            alt="image"
+            src="public/Images/c_vs_python-1200h.jpg"
+            class="introduktion-image2" /></section
+        ><section class="introduktion-statistics"></section
+        ><section class="introduktion-banners"
+          ><div class="introduktion-banner-manage"
+            ><div class="introduktion-container7"
+              ><div class="introduktion-left2"
+                ><span class="introduktion-text37 title"
+                  ><span>Kunstig i</span><span>ntelligens </span><br /><span
+                    >forklaret</span
+                  ><br /></span
+                ><span class="introduktion-text43"
+                  >Imitationen af vores menneskelige hjerner</span
+                ><a href="ai-forklaret.html" class="introduktion-navlink2"
+                  ><div class="introduktion-get-started template-button"
+                    ><span class="introduktion-text44">AI forklaret</span></div
+                  ></a
+                ></div
+              ><div class="introduktion-image-container1"
+                ><img
+                  alt="pastedImage"
+                  src="public/Images/artificial%20intelligence-1200w.png"
+                  class="introduktion-cards-image2" /></div></div></div></section
+        ><section class="introduktion-integrations"
+          ><div class="introduktion-heading"
+            ><span class="introduktion-text45"
+              ><br /><br /><span>github.com</span><br /><br /><span
+                >https://www.simplilearn.com/tutorials/artificial-intelligence-tutorial/types-of-artificial-intelligence</span
+              ><br /><br /><span
+                >https://www.simplilearn.com/advantages-and-disadvantages-of-artificial-intelligence-article</span
+              ><br /></span></div></section></div
+    ></div> </body
+></html>
